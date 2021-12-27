@@ -2,7 +2,8 @@ echo 'Hello from .zshrc'
 
 
 # Set Variables
-
+# Syntax highlighting for man pages using bat
+export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 
 # Change ZSH Options
 
@@ -22,7 +23,7 @@ export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/b
 
 
 # Write Handy Functions
-function mkcd() { mkdir -p "$@" && cd "$_"; }
+function mkcd() { mkdir e-p "$@" && cd "$_"; }
 
 
 #function mkcd() {
