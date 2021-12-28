@@ -4,6 +4,12 @@ I'm learning a ton about [dotfiles, command line use, Homebrew, zsh, git, and mo
 @EIEIOxyz
 ](https://twitter.com/EIEIOxyz/), and you can too!
 
+## Update Brewfile after installing formulas, casks, taps
+execute the following after `brew install`
+```zsh
+brew bundle dump --force --describe 
+```
+
 ## TODO
 - Terminal Preferences
 - Changed Shell to ZSH
