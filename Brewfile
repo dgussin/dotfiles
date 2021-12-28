@@ -7,6 +7,8 @@ brew "bat"
 brew "exa"
 # Distributed revision control system
 brew "git"
+# Tcl/Tk UI for the git revision control system
+brew "git-gui"
 # User-friendly cURL replacement (command-line HTTP client)
 brew "httpie"
 # Application launcher and productivity software
