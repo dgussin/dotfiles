@@ -4,6 +4,12 @@ I'm learning a ton about [dotfiles, command line use, Homebrew, zsh, git, and mo
 @EIEIOxyz
 ](https://twitter.com/EIEIOxyz/), and you can too!
 
+## Update Brewfile after installing formulas, casks, taps
+execute the following after `brew install`
+```zsh
+brew bundle dump --force --describe 
+```
+
 ## TODO
 - Terminal Preferences
 - Changed Shell to ZSH
@@ -11,6 +17,7 @@ I'm learning a ton about [dotfiles, command line use, Homebrew, zsh, git, and mo
 - Mission Control Preferences (don't rearrange spaces)
 - Finder Show Path Bar
 - Trackpad (Three Finger Drag and Tap to Click)
-- .zshrc
 - Git (config and SSH)
+- Alfred (turn off Spotlight shortcut and use for Alfred)
+- Snappy (turn off cmd+shift+4 for screenshot and use for snappy)
 - Share this repo with a MILLION people
