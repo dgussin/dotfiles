@@ -19,3 +19,4 @@ brew bundle dump --force --describe
 - Trackpad (Three Finger Drag and Tap to Click)
 - Git (config and SSH)
 - Alfred (turn off Spotlight shortcut and use for Alfred)
+- Snappy (turn off cmd+shift+4 for screenshot and use for snappy)
