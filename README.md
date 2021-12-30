@@ -5,9 +5,27 @@ I'm learning a ton about [dotfiles, command line use, Homebrew, zsh, git, and mo
 ](https://twitter.com/EIEIOxyz/), and you can too!
 
 ## Update Brewfile after installing formulas, casks, taps
-execute the following after `brew install`
+### execute the following after `brew install`
 ```zsh
 brew bundle dump --force --describe 
+```
+### check for updated/new/deleted Formulae/Casks/Taps
+```zsh
+brew update
+```
+
+### check for out dataed (installed) Forumlae/Casks/Taps
+```zsh
+brew outdated
+```
+
+### update an installed package
+```zsh
+brew upgrade <package name>
+```
+### update all installed packages
+```zsh
+brew upgrade
 ```
 
 ## TODO
