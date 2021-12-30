@@ -33,6 +33,8 @@ function mkcd() { mkdir e-p "$@" && cd "$_"; }
 #}
 
 # Use ZSH Plugins
+# autocomplete for git
+autoload -Uz compinit && compinit
 
 
 # ...and Other Suprises
