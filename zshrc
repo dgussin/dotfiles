@@ -13,6 +13,7 @@ alias ls='exa -laFh --git '
 alias exa='exa -laFh --git '
 alias man=batman
 alias bbd='brew bundle dump --force --describe'
+alias trail='<<<${(F)path}'
 
 # Customize Prompt(s)
 PROMPT='
@@ -27,7 +28,6 @@ export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/b
 
 # Write Handy Functions
 function mkcd() { mkdir e-p "$@" && cd "$_"; }
-
 
 #function mkcd() {
 #  mkdir -p "$@" && cd "$_";
