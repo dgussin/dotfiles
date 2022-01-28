@@ -1,6 +1,7 @@
 tap "eth-p/software"
 tap "homebrew/bundle"
 tap "homebrew/cask"
+tap "homebrew/cask-drivers"
 tap "homebrew/core"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
@@ -28,6 +29,10 @@ cask "dropbox"
 cask "gitkraken"
 # Web browser
 cask "google-chrome"
+# Personal finance manager
+cask "quicken"
+# Sync and backup service to Synology NAS drives
+cask "synology-drive"
 # Open-source code editor
 cask "visual-studio-code"
 mas "GarageBand", id: 682658836
