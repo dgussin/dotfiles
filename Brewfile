@@ -23,6 +23,8 @@ brew "nano"
 brew "eth-p/software/bat-extras"
 # Application launcher and productivity software
 cask "alfred"
+# Tool to flash OS images to SD cards & USB drives
+cask "balenaetcher"
 # Client for the Dropbox cloud storage service
 cask "dropbox"
 # Git client focusing on productivity
