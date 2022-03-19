@@ -31,6 +31,8 @@ cask "gitkraken"
 cask "google-chrome"
 # Personal finance manager
 cask "quicken"
+# Imaging utility to install operating systems to a microSD card
+cask "raspberry-pi-imager"
 # Sync and backup service to Synology NAS drives
 cask "synology-drive"
 # Open-source code editor
