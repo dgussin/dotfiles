@@ -3,15 +3,16 @@ echo 'Hello from .zshrc'
 
 # Set Variables
 export HOMEBREW_CASK_OPTS="--no-quarantine"
-
+export NULLCMD=bat
 # Change ZSH Options
 
 
 # Create Aliases
-#alias ls='ls -lAFh'
 alias ls='exa -laFh --git '
 alias exa='exa -laFh --git '
 alias man=batman
+alias bbd='brew bundle dump --force --describe'
+alias trail='<<<${(F)path}'
 
 # Customize Prompt(s)
 PROMPT='
@@ -27,12 +28,13 @@ export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/b
 # Write Handy Functions
 function mkcd() { mkdir e-p "$@" && cd "$_"; }
 
-
 #function mkcd() {
 #  mkdir -p "$@" && cd "$_";
 #}
 
 # Use ZSH Plugins
+# autocomplete for git
+autoload -Uz compinit && compinit
 
 
 # ...and Other Suprises
