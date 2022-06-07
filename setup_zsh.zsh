@@ -17,9 +17,14 @@ else
   echo "Enter user password to change login shell"
   chsh -s '/opt/homebrew/bin/zsh'
 fi
-echo "Enter superuser (sudo) passwrod to edit /etc/shells"
-echo '/opt/homebrew/bin/zsh' | sudo tee -a '/etc/shells' >/dev/null
 
-echo "Enter user password to change login shell"
-chsh -s '/opt/homebrew/bin/zsh'
+if sh --version | grep -q zsh; then
+  echo '/private/var/select/sh already linked to /bin/zsh'
+else
+  echo "Enter superuser (sudo) password to symlink sh to zsh"
+  # Looked cute, might delete later, idk
+  sudo ln -sfv /bin/zsh /private/var/select/sh
 
+  # I'd likefor this to work instead.
+  # sudo ln -sfv /user/local/bin/zsh /private/var/select/sh 
+fi
