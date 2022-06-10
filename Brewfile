@@ -11,14 +11,22 @@ brew "exa"
 brew "git"
 # Tcl/Tk UI for the git revision control system
 brew "git-gui"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.10"
 # User-friendly cURL replacement (command-line HTTP client)
 brew "httpie"
 # Pager program similar to more
 brew "less"
 # Mac App Store command-line interface
 brew "mas"
+# Node version management
+brew "n"
 # Free (GNU) replacement for the Pico text editor
 brew "nano"
+# Platform built on V8 to build network applications
+brew "node"
+# Code formatter for JavaScript, CSS, JSON, GraphQL, Markdown, YAML
+brew "prettier"
 # UNIX shell (command interpreter)
 brew "zsh"
 # Bash scripts that integrate bat with various command-line tools
