@@ -41,8 +41,6 @@ cask "dropbox"
 cask "gitkraken"
 # Web browser
 cask "google-chrome"
-# Software for Logitech devices
-cask "logitech-options"
 # Personal finance manager
 cask "quicken"
 # Imaging utility to install operating systems to a microSD card
