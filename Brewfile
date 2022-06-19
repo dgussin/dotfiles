@@ -35,6 +35,8 @@ brew "eth-p/software/bat-extras"
 cask "alfred"
 # Tool to flash OS images to SD cards & USB drives
 cask "balenaetcher"
+# Voice and text chat software
+cask "discord"
 # Client for the Dropbox cloud storage service
 cask "dropbox"
 # Git client focusing on productivity
