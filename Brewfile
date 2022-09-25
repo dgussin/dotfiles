@@ -3,6 +3,7 @@ tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-drivers"
 tap "homebrew/core"
+tap "nats-io/nats-tools"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
 # Modern replacement for 'ls'
@@ -23,6 +24,8 @@ brew "mas"
 brew "n"
 # Free (GNU) replacement for the Pico text editor
 brew "nano"
+# Lightweight cloud messaging system
+brew "nats-server"
 # Platform built on V8 to build network applications
 brew "node"
 # Code formatter for JavaScript, CSS, JSON, GraphQL, Markdown, YAML
@@ -31,12 +34,16 @@ brew "prettier"
 brew "zsh"
 # Bash scripts that integrate bat with various command-line tools
 brew "eth-p/software/bat-extras"
+# NATS utility
+brew "nats-io/nats-tools/nats"
 # Application launcher and productivity software
 cask "alfred"
 # Tool to flash OS images to SD cards & USB drives
 cask "balenaetcher"
 # Voice and text chat software
 cask "discord"
+# Developer platform
+cask "dotnet-sdk"
 # Client for the Dropbox cloud storage service
 cask "dropbox"
 # Git client focusing on productivity
