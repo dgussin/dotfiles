@@ -60,6 +60,8 @@ cask "raspberry-pi-imager"
 cask "redisinsight"
 # Sync and backup service to Synology NAS drives
 cask "synology-drive"
+# Development environment
+cask "vagrant"
 # Open-source code editor
 cask "visual-studio-code"
 mas "1Password for Safari", id: 1569813296
