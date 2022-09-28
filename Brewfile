@@ -4,6 +4,10 @@ tap "homebrew/cask"
 tap "homebrew/cask-drivers"
 tap "homebrew/core"
 tap "nats-io/nats-tools"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.10"
+# Automate deployment, configuration, and upgrading
+brew "ansible"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
 # Modern replacement for 'ls'
@@ -12,8 +16,6 @@ brew "exa"
 brew "git"
 # Tcl/Tk UI for the git revision control system
 brew "git-gui"
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.10"
 # User-friendly cURL replacement (command-line HTTP client)
 brew "httpie"
 # Pager program similar to more
