@@ -60,6 +60,7 @@ cask "redisinsight"
 cask "synology-drive"
 # Open-source code editor
 cask "visual-studio-code"
+mas "1Password for Safari", id: 1569813296
 mas "GarageBand", id: 682658836
 mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694
