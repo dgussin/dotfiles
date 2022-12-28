@@ -48,6 +48,8 @@ cask "alfred"
 cask "balenaetcher"
 # Voice and text chat software
 cask "discord"
+# App to build and share containerized applications and microservices
+cask "docker"
 # Developer platform
 cask "dotnet-sdk"
 # Client for the Dropbox cloud storage service
