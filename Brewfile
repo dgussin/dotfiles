@@ -74,3 +74,4 @@ mas "Magnet", id: 441258766
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "Snappy", id: 512617038
+mas "Things", id: 904280696
