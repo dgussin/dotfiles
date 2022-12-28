@@ -34,6 +34,8 @@ brew "node"
 brew "prettier"
 # Tool to build, change, and version infrastructure
 brew "terraform"
+# Executes a program periodically, showing output fullscreen
+brew "watch"
 # UNIX shell (command interpreter)
 brew "zsh"
 # Bash scripts that integrate bat with various command-line tools
