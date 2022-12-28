@@ -32,6 +32,8 @@ brew "nats-server"
 brew "node"
 # Code formatter for JavaScript, CSS, JSON, GraphQL, Markdown, YAML
 brew "prettier"
+# Tool to build, change, and version infrastructure
+brew "terraform"
 # UNIX shell (command interpreter)
 brew "zsh"
 # Bash scripts that integrate bat with various command-line tools
