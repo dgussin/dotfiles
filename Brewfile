@@ -44,6 +44,8 @@ brew "eth-p/software/bat-extras"
 brew "nats-io/nats-tools/nats"
 # Application launcher and productivity software
 cask "alfred"
+# Data backup and storage service
+cask "backblaze"
 # Tool to flash OS images to SD cards & USB drives
 cask "balenaetcher"
 # Voice and text chat software
