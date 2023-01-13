@@ -64,6 +64,8 @@ cask "google-chrome"
 cask "quicken"
 # Imaging utility to install operating systems to a microSD card
 cask "raspberry-pi-imager"
+# Control your tools with a few keystrokes
+cask "raycast"
 # GUI for streamlined Redis application development
 cask "redisinsight"
 # Sync and backup service to Synology NAS drives
