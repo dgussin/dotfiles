@@ -60,6 +60,10 @@ cask "dropbox"
 cask "gitkraken"
 # Web browser
 cask "google-chrome"
+# Provides updates to various Microsoft products
+cask "microsoft-auto-update"
+# Office suite
+cask "microsoft-office"
 # Personal finance manager
 cask "quicken"
 # Imaging utility to install operating systems to a microSD card
