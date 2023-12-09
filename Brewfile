@@ -1,8 +1,7 @@
 tap "eth-p/software"
 tap "homebrew/bundle"
-tap "homebrew/cask"
 tap "homebrew/cask-drivers"
-tap "homebrew/core"
+tap "homebrew/services"
 tap "nats-io/nats-tools"
 # Automate deployment, configuration, and upgrading
 brew "ansible"
@@ -14,8 +13,6 @@ brew "exa"
 brew "git"
 # Tcl/Tk UI for the git revision control system
 brew "git-gui"
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.10"
 # User-friendly cURL replacement (command-line HTTP client)
 brew "httpie"
 # Pager program similar to more
@@ -27,11 +24,13 @@ brew "n"
 # Free (GNU) replacement for the Pico text editor
 brew "nano"
 # Lightweight cloud messaging system
-brew "nats-server"
+brew "nats-server", restart_service: true
 # Platform built on V8 to build network applications
 brew "node"
 # Code formatter for JavaScript, CSS, JSON, GraphQL, Markdown, YAML
 brew "prettier"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.10"
 # Tool to build, change, and version infrastructure
 brew "terraform"
 # Executes a program periodically, showing output fullscreen
@@ -87,4 +86,10 @@ mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "Snappy", id: 512617038
 mas "Things", id: 904280696
+mas "Toolkit for YNAB", id: 1592912837
 mas "Unsplash Wallpapers", id: 1284863847
+vscode "esbenp.prettier-vscode"
+vscode "hashicorp.terraform"
+vscode "ms-azuretools.vscode-docker"
+vscode "ms-vscode-remote.remote-containers"
+vscode "yzhang.markdown-all-in-one"
