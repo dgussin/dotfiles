@@ -39,6 +39,8 @@ brew "terraform"
 brew "watch"
 # UNIX shell (command interpreter)
 brew "zsh"
+# Client for Dapr.
+brew "dapr/tap/dapr-cli"
 # Bash scripts that integrate bat with various command-line tools
 brew "eth-p/software/bat-extras"
 # NATS utility
