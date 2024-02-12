@@ -31,6 +31,8 @@ brew "node"
 brew "prettier"
 # Interpreted, interactive, object-oriented programming language
 brew "python@3.10"
+# Easiest, most secure way to use WireGuard and 2FA
+brew "tailscale"
 # Tool to build, change, and version infrastructure
 brew "terraform"
 # Executes a program periodically, showing output fullscreen
@@ -85,6 +87,7 @@ mas "Magnet", id: 441258766
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "Snappy", id: 512617038
+mas "Tailscale", id: 1475387142
 mas "Things", id: 904280696
 mas "Toolkit for YNAB", id: 1592912837
 mas "Unsplash Wallpapers", id: 1284863847
