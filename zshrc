@@ -10,8 +10,8 @@ export PREFIX="$N_PREFIX"
 
 
 # Create Aliases
-alias ls='exa -laFh --git '
-alias exa='exa -laFh --git '
+alias ls='eza -lah --git '
+alias exa='eza -lah --git '
 alias man=batman
 alias bbd='brew bundle dump --force --describe'
 alias trail='<<<${(F)path}'
