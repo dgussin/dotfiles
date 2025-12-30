@@ -28,7 +28,7 @@ brew "n"
 brew "nano"
 # Lightweight cloud messaging system
 brew "nats-server", restart_service: :changed
-# Platform built on V8 to build network applications
+# Open-source, cross-platform JavaScript runtime environment
 brew "node"
 # Code formatter for JavaScript, CSS, JSON, GraphQL, Markdown, YAML
 brew "prettier"
@@ -86,6 +86,8 @@ cask "raycast"
 cask "redis-insight"
 # Sync and backup service to Synology NAS drives
 cask "synology-drive"
+# To-do list
+cask "todoist-app"
 # Development environment
 cask "vagrant"
 # Open-source code editor
