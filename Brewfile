@@ -65,13 +65,15 @@ cask "docker-desktop"
 # Developer platform
 cask "dotnet-sdk"
 # This cask follows releases from https://github.com/dotnet/core/tree/master
-cask "dotnet-sdk6-0-400"
+cask "isen-ng/dotnet-sdk-versions/dotnet-sdk6-0-400"
 # Client for the Dropbox cloud storage service
 cask "dropbox"
 # Git client focusing on productivity
 cask "gitkraken"
 # Web browser
 cask "google-chrome"
+# Remote desktop app
+cask "jump-desktop-connect"
 # Provides updates to various Microsoft products
 cask "microsoft-auto-update"
 # Office suite
