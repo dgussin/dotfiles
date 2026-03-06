@@ -3,6 +3,7 @@ tap "eth-p/software"
 tap "homebrew/bundle"
 tap "homebrew/services"
 tap "isen-ng/dotnet-sdk-versions"
+tap "junian/dotnet"
 tap "nats-io/nats-tools"
 # Automate deployment, configuration, and upgrading
 brew "ansible"
@@ -62,10 +63,14 @@ cask "bambu-studio"
 cask "discord"
 # App to build and share containerised applications and microservices
 cask "docker-desktop"
-# Developer platform
-cask "dotnet-sdk"
 # This cask follows releases from https://github.com/dotnet/core/tree/master
 cask "isen-ng/dotnet-sdk-versions/dotnet-sdk6-0-400"
+# Developer platform
+cask "junian/dotnet/dotnet-sdk@10.0"
+# Developer platform
+cask "junian/dotnet/dotnet-sdk@8.0"
+# Developer platform
+cask "junian/dotnet/dotnet-sdk@9.0"
 # Client for the Dropbox cloud storage service
 cask "dropbox"
 # Git client focusing on productivity
@@ -108,7 +113,6 @@ mas "Things", id: 904280696
 mas "Toolkit for YNAB", id: 1592912837
 mas "Unsplash Wallpapers", id: 1284863847
 vscode "esbenp.prettier-vscode"
-vscode "github.copilot"
 vscode "github.copilot-chat"
 vscode "github.remotehub"
 vscode "github.vscode-github-actions"
@@ -119,7 +123,6 @@ vscode "ms-azuretools.vscode-docker"
 vscode "ms-dotnettools.csdevkit"
 vscode "ms-dotnettools.csharp"
 vscode "ms-dotnettools.vscode-dotnet-runtime"
-vscode "ms-dotnettools.vscodeintellicode-csharp"
 vscode "ms-vscode-remote.remote-containers"
 vscode "ms-vscode.azure-repos"
 vscode "ms-vscode.remote-repositories"
