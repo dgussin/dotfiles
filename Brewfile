@@ -27,8 +27,6 @@ brew "mas"
 brew "n"
 # Free (GNU) replacement for the Pico text editor
 brew "nano"
-# Lightweight cloud messaging system
-brew "nats-server", restart_service: :changed
 # Open-source, cross-platform JavaScript runtime environment
 brew "node"
 # Code formatter for JavaScript, CSS, JSON, GraphQL, Markdown, YAML
@@ -47,8 +45,6 @@ brew "zsh"
 brew "dapr/tap/dapr-cli"
 # Bash scripts that integrate bat with various command-line tools
 brew "eth-p/software/bat-extras"
-# NATS utility
-brew "nats-io/nats-tools/nats"
 # Application launcher and productivity software
 cask "alfred"
 # Electronics prototyping platform
@@ -59,6 +55,8 @@ cask "backblaze"
 cask "balenaetcher"
 # 3D model slicing software for 3D printers, maintained by Bambu Lab
 cask "bambu-studio"
+# Terminal-based AI coding assistant
+cask "claude-code"
 # Voice and text chat software
 cask "discord"
 # App to build and share containerised applications and microservices
